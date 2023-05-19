@@ -6,7 +6,7 @@
  * Return: 0 (Success)
  */
 
-int main(void)
+int main(int a, int b);
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
