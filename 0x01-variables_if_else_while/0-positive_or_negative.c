@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - A program that prints whether a random number
- * stored at variable n is positive or negative or zero
+/**
+ * main - Determines if a number is positive, negative or zero
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
