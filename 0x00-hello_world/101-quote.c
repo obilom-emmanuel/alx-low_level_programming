@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/*
+/**
  * main - A program that prints a line
  * without using the printf and puts functions
  *
