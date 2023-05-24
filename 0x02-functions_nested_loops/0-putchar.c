@@ -9,20 +9,14 @@
 
 int main(void)
 {
-	char str[] = "_putchar";
-
-	int i = 0;
-
-	while (i <= 12)
-	{
-		if (str[i] == '\0')
-		{
-			putchar('\n');
-			i++;
-			break;
-		}
-		else
-			putchar(str[i]);
-	}
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 	return (0);
 }
