@@ -11,11 +11,14 @@ int main(void)
 {
 	char str[] = "_putchar";
 
-	for (int i = 0; i <= 12; i++)
+	int i = 0;
+
+	while (i <= 12)
 	{
 		if (str[i] == '\0')
 		{
 			putchar('\n');
+			i++;
 			break;
 		}
 		else
