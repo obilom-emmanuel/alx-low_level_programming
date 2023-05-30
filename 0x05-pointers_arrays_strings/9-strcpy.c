@@ -4,7 +4,7 @@
  * _strcpy - A function that copy string
  * @src: string to be copied.
  * @dest: pointed where string is to be pasted.
- * Return: the pointer to dest.
+ * Return: 0 (Success)
  */
 
 char *_strcpy(char *dest, char *src)
@@ -16,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		i++;
 	}
-	for ( ; j < i; j++)
+	for ( ; j < i ; j++)
 	{
 		dest[j] = src[j];
 	}
