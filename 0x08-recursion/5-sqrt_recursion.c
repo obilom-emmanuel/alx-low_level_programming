@@ -3,14 +3,15 @@
 /**
  * _sqrt_recursion - A function that prints
  * the natural square root of a number.
- * @start: beginning of the search.
- * @end: end of the search.
  * @n: A number that it's natural square root should be printed.
  * Return: -1 If n does not have a natural square root.
  */
 
-int _sqrt_recursion(int n, int start, int end)
+int _sqrt_recursion(int n)
 {
+	int start = 0;
+	int end = n;
+
 	if (start > end)
 	{
 		return (-1);
@@ -31,9 +32,4 @@ int _sqrt_recursion(int n, int start, int end)
 	{
 		return (_sqrt_recursion(n, end, mid = 1));
 	}
-}
-
-int _sqrt_recursion(int n)
-{
-	return (_sqrt_recursion(n, 0, n));
 }
