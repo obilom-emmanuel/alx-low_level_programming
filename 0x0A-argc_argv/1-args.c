@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
-		putchar(argc);
+		putchar(argc  - 1);
 		putchar('\n');
 		return (0);
 	}
