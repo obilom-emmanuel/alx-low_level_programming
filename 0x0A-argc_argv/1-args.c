@@ -10,9 +10,12 @@
 
 int main(int argc, char *argv[])
 {
+	int i;
+
 	if (argc > 0)
 	{
-		putchar(argc  - 1);
+		i = (argc - 1);
+		putchar(i);
 		putchar('\n');
 		return (0);
 	}
