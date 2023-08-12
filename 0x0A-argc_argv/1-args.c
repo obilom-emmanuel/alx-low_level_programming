@@ -10,13 +10,20 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int count = argc - 1;
 
-	if (argc > 0)
+	if (count == 0)
 	{
-		i = (argc - 1);
-		putchar(i);
-		putchar('\n');
-		return (0);
+		putchar('0');
 	}
+	else
+	{
+		while (count > 0)
+		{
+			putchar('0' + count % 10);
+			count /= 10;
+		}
+	}
+	putchar('\n');
+	return (0);
 }
